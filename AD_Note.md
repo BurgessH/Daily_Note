@@ -9,3 +9,5 @@
   - 7.放置总线P[0..7]  
   - 8.原理图的编译（工程文件下编译，place-drivers-no-ERC）  
   - 9.绘制原理图元件（新建schlib添加）
+### PCB layer out
+  - 
