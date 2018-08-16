@@ -1,4 +1,4 @@
-# Daily_Note-本文引用及查看来源阮一峰老师github;
+# Daily_Note-本文引用及查看来源阮一峰老师github
 
 梁溯溟先生的自传文集《我生有涯愿无尽》  
 
