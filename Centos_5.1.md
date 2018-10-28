@@ -1,5 +1,5 @@
 基础操作：
-  - 1、命令行和图形化界面之间的切换：ctrl+alt+fn;  
+  - 1、命令行和图形化界面之间的切换：ctrl + alt + fx;  
   - 2.关闭提示的声音：modprobe -r pcspkr;  
   - ls -alsh/ctrl + l(clear);  
   - cal 6 2018;   （查询时间）  
@@ -9,7 +9,7 @@
   - 按esc键后按.键，调用之前命令的参数； 
   
 帮助文档：  
-  - whatis ls:说明命令由什么作用；  
+  - whatis ls: 说明命令由什么作用；  
   - ls --help  
   - man passwd(/words n:从上往下查找；N：从下往上查找;查询命令的用法)；  
   - man -k clock(查找部分内容clock);  
