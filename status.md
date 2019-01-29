@@ -21,4 +21,6 @@
   - 连续写（页写）：页内地址循环 空闲+ 起始+器件地址(7bit+1bitw/r+1bitACK)+字地址高ACK + 字地址低ACK +8bitdataACK +8bitdataACK + 结束;    
 ### 读时序：
   - 当前地址读：空闲+ 起始+器件地址(7bit+1bitw=0/r=1+1bitACK) +8bitdataACK + 结束；  0->8191不能指定地址读取数据    
-  - 随机地址读：空闲+ 起始+器件地址(7bit+1bitw=0/r=1+1bitACK) 字地址高ACK + 字地址低ACK+起始+器件地址(7bit+1bitw/r+1bitACK)+8bitdataACK+结束；   
+  - 随机地址读：空闲+ 起始+器件地址(7bit+1bitw=0/r=1+1bitACK) 字地址高ACK + 字地址低ACK+起始+器件地址(7bit+1bitw/r+1bitACK)+8bitdataACK=1+结束； 
+  - 顺序读：第一页的首地址到最后一页的尾地址读取数据；时序和随机读类似，只是dataACK=0,连续读数据；  
+### 
