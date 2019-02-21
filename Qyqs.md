@@ -9,5 +9,6 @@
     - 5.基地址分配system->assign base address;  
     - 6.生成Qsys系统，保存在hardware;  
     
-    - 7.添加.qip文件，Qsys生产的后缀名为.qip文件，assignment-settings,
+    - 7.添加.qip文件，Qsys生产的后缀名为.qip文件，assignment-settings;工程的一些配置，assignment-device :Category unuse as input tri-state  
+    - 8.Dual-purpose pins -use as regular I/o
   
