@@ -10,5 +10,9 @@
     - 6.生成Qsys系统，保存在hardware;  
     
     - 7.添加.qip文件，Qsys生产的后缀名为.qip文件，assignment-settings;工程的一些配置，assignment-device :Category unuse as input tri-state  
-    - 8.Dual-purpose pins -use as regular I/o
+    - 8.Dual-purpose pins -use as regular I/o  
+    - 9.引脚分配；  
+    
+    
+    - 10.软件设计：【Toos】→【Nios II SBT for Eclipse】，存放空间software，
   
