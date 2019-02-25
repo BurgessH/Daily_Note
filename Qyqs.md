@@ -15,5 +15,6 @@
     - 10.软件设计：【Toos】→【Nios II SBT for Eclipse】，存放空间software；  
     
   - PIO IP核（parallel input/output:）  
-    - PIO的I/O端口可以连接到片内用户逻辑（verilog语言完成的电路部分）也可以连接到与外部器件相连的FPGA引脚。每个PIO核能提供最高32个I/O端口，用户可以在QSYS系统中添加多个PIO核。
-  
+    - PIO的I/O端口可以连接到片内用户逻辑（verilog语言完成的电路部分）也可以连接到与外部器件相连的FPGA引脚。每个PIO核能提供最高32个I/O端口，用户可以在QSYS系统中添加多个PIO核。每一个IP核都有会一个寄存器的描述文件，altera_avalon_pio_regs.h(定义了寄存器的映射，宏定义)
+  - PIO IP核寄存器：data数据读写操作, direction方向输出, interrupmask中断使能, edgecapture边沿触发检测, outset置位, outclear清零;   
+    
