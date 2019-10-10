@@ -16,4 +16,9 @@
   - 
   1.更新本地数据库
   
-
+## 使用过程中出现的问题：  
+  - 1.sudo apt-get install vim报告  
+    - E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavialable)  
+    - E: Unable to acquire the dpkg fronted lock (/var/lib/dpkg/lock-frontend), is another process using it?  
+ - 原因：可能是另外个程序正在使用，导致资源被锁不可用；而导致资源被锁不可用的原因是，上次运行安装或者更新时没有正常完成，才导致这个问题出现；  
+ - 解决：根据报告信息（sudo rm /var/lib/dpkg/lock-frontend）  
