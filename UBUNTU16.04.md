@@ -1,4 +1,4 @@
-#ubuntu16.04上网配置：  
+# Ubuntu16.04上网配置：  
   - 1.NET方式： 
     - 选择NET网络连接方式;    
     - 打开配置文件：vim /etc/network/interfaces;      
