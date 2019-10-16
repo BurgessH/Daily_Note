@@ -37,7 +37,7 @@
   - 3.编译opencv  
     - 新建文件夹，存放下载的opencv压缩包并解压文件:(zip:unzip xxx.zip/tar:tar -zxvf xxx.tar.gz)  
     - 解压完成后，查看该目录下的文件，进入opencv-4.0.1文件夹，新建build文件，用存放编译过程中产生的文件  
-    - 在build中输入编译过程需要参数：cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D OPENCV_GENERATE_PKGCONFIG=ON -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH= /home/cht/opencv4/opencv_contrib-4.0.1/modules -D OPENCV_EXAMPLES=ON ..
+    - 在build中输入编译过程需要参数：cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D OPENCV_GENERATE_PKGCONFIG=ON -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH= /home/astonm665/opencv4/opencv_contrib-4.0.1/modules -D OPENCV_EXAMPLES=ON ..
       - CMAKE_INSTALL_PREFIX：该选项为opencv安装的目录，可按实际目录进行修改，一般放在/usr/local目录下
       - OPENCV_GENERATE_PKGCONFIG：打开 pkg-config  
       - OPENCV_EXTRA_MODULES_PATH:该选选项为opencv_contrib模块下module文件夹，按实际目录进行修改，若不编译opencv_contrib模块，该选项可以省略
