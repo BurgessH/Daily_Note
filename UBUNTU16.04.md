@@ -54,6 +54,7 @@
     - cmake .  
     - make  
     - ./opencv_example  
+  - 7.手动编译一个测试程序：打开终端，mkdir opencv_test文件进入文件创建xxx.cpp和CMakeLists.txt、build文件，进入build文件中编译文件cmake ..完成后make,最后运行生成的项目文件./opencv_test  
     
     
     
