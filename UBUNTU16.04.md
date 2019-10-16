@@ -1,4 +1,6 @@
-# 一、Ubuntu16.04上网配置：  
+# 一、Ubuntu16.04工作环境搭建
+
+## I、Ubuntu16.04上网配置：  
   - 1.NET方式： 
     - 选择NET网络连接方式;    
     - 打开配置文件：vim /etc/network/interfaces;      
@@ -12,13 +14,13 @@
     - 重启网卡：/etc/init.d/networking restart    
   - 3.Host方式：
   
-# 二、更换ubuntu源为清华（自带的镜像源服务器默认配置在国外，更新和下载软件速度慢）  
+## II、更换ubuntu源为清华（自带的镜像源服务器默认配置在国外，更新和下载软件速度慢）  
   - 1.https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/（URL）  
   - 2.备份系统自带更新源配置文件：/etc/apt/sources.list  
   - 3.打开gedit  source.list更换1复制的内容保存退出；  
   - 4.apt updata(更新源)   
   
-# 三、Ubuntu16.04添加sogo输入法：  
+## III、Ubuntu16.04添加sogo输入法：  
   - 1.官网下载与Linux系统适应的版本；    
   - 2.sudo apt-get install -f  
   - 3.sudo dpkg -i sogoXXX_amd.deb  
@@ -29,7 +31,7 @@
   - 
   1.更新本地数据库
   
-## I、使用过程中出现的问题：  
+## 1、使用过程中出现的问题：  
   - 1.sudo apt-get install vim报告  
     - E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavialable)  
     - E: Unable to acquire the dpkg fronted lock (/var/lib/dpkg/lock-frontend), is another process using it?  
